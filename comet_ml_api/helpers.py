@@ -1,7 +1,7 @@
 import requests
 
 URLS = {
-    "v1": "https://staging.comet.ml/api/rest/v1/"
+    "v1": "https://www.comet.ml/api/rest/v1/"
 }
 DEFAULT_VERSION = 'v1'
 COMET_HEADER = 'Authorization'
