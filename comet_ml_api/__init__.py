@@ -2,10 +2,7 @@ import helpers
 
 class CometMlApi:
     def __init__(self, api_key, version = helpers.DEFAULT_VERSION):
-        if version is not None:
-            self.version = helpers.DEFAULT_VERSION
-        else:
-            self.version = version
+        self.version = version
         self.api_key = api_key
 
     def get_version(self):
