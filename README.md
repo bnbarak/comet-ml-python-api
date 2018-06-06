@@ -20,17 +20,6 @@ experiment_key = '625fa39eb4ac41e693cb10c0bd8f37d9'
 projects = comet.projects()
 ```
 
-# print comet.experiments(projectId)
-# print comet.experiment_html(experiment_key)
-# print comet.experiment_code(experiment_key)
-# print comet.experiment_stdout(experiment_key)
-# print comet.experiment_installed_packages(experiment_key)
-# print comet.experiment_graph(experiment_key)
-# print comet.experiment_images(experiment_key)
-# print comet.experiment_params(experiment_key)
-# print comet.experiment_metrics(experiment_key)
-# print comet.experiment_metrics_raw(experiment_key)
-# print comet.experiment_log_other(experiment_key)
 
 ## API
 ### Projects
