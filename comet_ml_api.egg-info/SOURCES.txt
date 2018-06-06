@@ -1,0 +1,8 @@
+setup.py
+comet_ml_api/__init__.py
+comet_ml_api/helpers.py
+comet_ml_api.egg-info/PKG-INFO
+comet_ml_api.egg-info/SOURCES.txt
+comet_ml_api.egg-info/dependency_links.txt
+comet_ml_api.egg-info/not-zip-safe
+comet_ml_api.egg-info/top_level.txt
