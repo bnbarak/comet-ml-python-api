@@ -26,3 +26,4 @@ class TestGetVersion(TestCase):
         comet = comet_ml_api.CometMlApi("test")
         expected_version = comet.get_version()
         self.assertEqual(expected_version, version)
+
