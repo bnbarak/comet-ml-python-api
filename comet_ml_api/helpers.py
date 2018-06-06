@@ -29,8 +29,7 @@ def get_end_point(end_point):
 def get_request(end_point, params, version, api_key):
     url = get_url(version) + get_end_point(end_point)
     headers = {COMET_HEADER: api_key}
-    print(url)
-    print(params)
+
     response = requests.get(url, params=params, headers=headers)
 
     try:
